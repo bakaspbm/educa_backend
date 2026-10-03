@@ -1,5 +1,5 @@
 package com.backend.educa.entity;
 
-public enum TIPOINSTIITUICAO {
+public enum TIPOINSTITUICAO {
         PRIVADO, PUBLICO
 }

@@ -6,8 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.List;
-
 @Entity
 @Setter
 @Getter
@@ -20,7 +18,7 @@ public class Instituicao  extends Usuario{
     private String descricao;
     private boolean aprovada = false;
     @Enumerated(EnumType.STRING)
-    private TIPOINSTIITUICAO tipoinstiituicao;
+    private TIPOINSTITUICAO tipo;
 
 
 }
